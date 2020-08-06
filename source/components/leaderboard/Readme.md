@@ -70,9 +70,9 @@ const leader = {
   amount: '$1,500'
 };
 
-const leaders = [ leader, leader, leader, leader, leader, leader ];
+const leaders = [ leader, leader, leader, leader, leader, leader, leader, leader, leader, leader, leader, leader ];
 
-<Leaderboard columns={{ md: 2 }}>
+<Leaderboard columns={{ sm: 2, md: 3, lg: 4 }}>
   {leaders.map((leader, i) => (
     <LeaderboardItem
       key={i}
